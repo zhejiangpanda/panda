@@ -9,14 +9,14 @@ pipeline {
             echo 'test3'
           }
         }
-        stage('') {
+        stage('second') {
           steps {
             echo 'test4'
           }
         }
       }
     }
-    stage('') {
+    stage('third') {
       steps {
         sleep 2
       }
