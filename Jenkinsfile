@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('first') {
       steps {
-        sh 'echo "panda"'
+        echo 'test2'
       }
     }
   }
