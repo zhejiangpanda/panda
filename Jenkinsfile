@@ -12,5 +12,10 @@ pipeline {
         sleep 2
       }
     }
+    stage('fourth') {
+      steps {
+        echo 'test4'
+      }
+    }
   }
 }
