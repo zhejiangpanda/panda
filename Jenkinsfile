@@ -12,5 +12,10 @@ pipeline {
         sleep 2
       }
     }
+    stage('fouth') {
+      steps {
+        echo 'test4'
+      }
+    }
   }
 }
