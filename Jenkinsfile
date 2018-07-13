@@ -5,6 +5,10 @@ pipeline {
       steps {
         echo 'test2'
         echo 'test3'
+        timeout(activity: true, time: 2) {
+          echo 'enforce time 2 second'
+        }
+
       }
     }
     stage('third') {
